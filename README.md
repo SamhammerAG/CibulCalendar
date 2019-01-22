@@ -1,3 +1,5 @@
+## Only forked to publish npm package!
+
 # Overview
 
 CibulCalendar is a date picker that enables users to easily pick dates or date ranges.
