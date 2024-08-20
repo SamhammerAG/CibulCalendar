@@ -602,7 +602,7 @@
 
           this.element.removeChild(getElementsByClassName(this.element, this.options.classes.calendar)[0]);
 
-          getElementsByClassName(this.element, this.options.classes.originCalendar)[0].setAttribute('style', 'display:block;');
+          getElementsByClassName(this.element, this.options.classes.originCalendar)[0].style.display = 'block';
           getElementsByClassName(this.element, this.options.classes.originCalendar)[0].className = this.options.classes.calendar;
 
           return;
@@ -611,7 +611,7 @@
 
           // set origin calendar if does not exist and render current month calendar
           if (!getElementsByClassName(this.element, this.options.classes.originCalendar).length) {
-            getElementsByClassName(this.element, this.options.classes.calendar)[0].setAttribute('style', 'display:none;');
+            getElementsByClassName(this.element, this.options.classes.calendar)[0].style.display = 'none';
             getElementsByClassName(this.element, this.options.classes.calendar)[0].className = this.options.classes.originCalendar;  
           } else {
             this.element.removeChild(getElementsByClassName(this.element, this.options.classes.calendar)[0]);

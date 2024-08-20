@@ -1,6 +1,6 @@
 {
   "name": "@samhammer/cibulcalendar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CibulCalendar is a date picker that enables users to easily pick dates or date ranges.",
   "repository": {
     "type": "git",
